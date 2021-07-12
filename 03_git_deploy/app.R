@@ -13,7 +13,7 @@ ui <- fluidPage(
     sidebarLayout(
         
         sidebarPanel(
-            selectInput("SITE", "Cancer Type", choices = unique(data$SITE)),
+            selectInput("SITE", "Select Cancer Type", choices = unique(data$SITE)),
             selectInput("YEAR", "Year", choices = unique(data$YEAR))   
             
         ), 
